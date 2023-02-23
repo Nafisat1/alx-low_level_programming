@@ -7,24 +7,9 @@
  *
  * Return: Always 0
  */
-int _abs(int r)
+int _abs(int)
 {
-	int r;
-	if (r == -1)
-	{
-		printf("%d\n", r);
-	}
-	else if (r == 0)
-	{
-		printf("%d\n", r);
-	}
-	else if (r == 1)
-	{
-		printf("%d\n", r);
-	}
-       else 
-	{
+	int (r == -1; 0; 1; -98);
 	printf("%d\n", r);
-	}
 	return (0);
 }

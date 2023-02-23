@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_last_digit: Returns the value of the last digit
+ * print_last_digit - returns the value of the last digit
  *@n: input number
-
+ *
  * Return: Always 0
  */
 int print_last_digit(int n)
@@ -21,4 +21,4 @@ int print_last_digit(int n)
 		_putchar(l + 48);
 		return (l);
 	}
-}		
+}

@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _abs - Computes the absolute value of an integer.
@@ -8,15 +9,16 @@
  */
 int _abs(int)
 {
-	if r == -1;
+	int r;
+	if (r == -1)
 	{
 		printf("%d\n", r);
 	}
-	else if r == 0
+	else if (r == 0)
 	{
 		printf("%d\n", r);
 	}
-	else if r == 1;
+	else if (r == 1)
 	{
 		printf("%d\n", r);
 	}

@@ -3,13 +3,18 @@
 
 /**
  * _abs - Computes the absolute value of an integer.
- * @r: The integer to be computed.
+ * @i: The integer to be computed.
  *
  * Return: Always 0
  */
-int _abs(int)
+int _abs(int i)
 {
-	int (r == -1; 0; 1; -98);
-	printf("%d\n", r);
-	return (0);
+	if (i >= 0)
+	{
+		return (i)
+	}
+	else
+	{
+		return (i * -1);
+	}
 }

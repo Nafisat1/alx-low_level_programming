@@ -10,12 +10,8 @@
  */
 int _isupper(int c)
 {
-	c;
-
 	if ((c >= 65) && (c <= 90))
-	{
-	printf("%c: %d\n", c, _isupper(c));
-	}
+	return (1);
 	else
 	return (0);
 }

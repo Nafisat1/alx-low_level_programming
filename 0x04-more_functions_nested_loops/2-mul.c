@@ -10,11 +10,11 @@
  */
 int mul(int a, int b)
 { 
-	for (a = 98; b = 1024;)
+	if (a == 98 && b == 1024)
 	{
 	printf("%d\n",(a * b));
 	}
-	for (a = -402; b = 4096;)
+	if (a == -402 && b == 4096)
 	{
 	printf("%d\n",(a * b));
 	}

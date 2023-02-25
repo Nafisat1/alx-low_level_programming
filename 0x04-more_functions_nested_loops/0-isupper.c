@@ -10,11 +10,15 @@
  */
 int _isupper(int c)
 {
-	char c;
+	int c = A;
 
-	c = 'A';
+	if (c = A)
+	{
 	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
+	}
+	else
+	{
 	printf("%c: %d\n", c, _isupper(c));
+	}
 	return (0);
 }

@@ -16,6 +16,13 @@ void more_numbers(void)
 	while (c <= 10)
 	{
 		j = 0;
+		while (j <= 10)
+		{
+			_putchar(c);
+			j++;
+		}
+
+		j = 10;
 		while (j < 15)
 		{
 			_putchar(c);

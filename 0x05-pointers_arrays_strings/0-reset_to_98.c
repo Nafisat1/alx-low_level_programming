@@ -10,7 +10,7 @@
 void reset_to_98(int *n)
 {
 	*n = 402;
-	printf("%p\n", n);
+	printf("%ls\n", n);
 	*n = 98;
-	printf("%p\n", n);
+	printf("%ls\n", n);
 }

@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints every other character of a string, starting with the
- * first character, followed by a new line. 
+ * first character, followed by a new line.
  * @str: the string to be printed
  *
  * Return: Always 0
@@ -13,6 +13,7 @@ void puts2(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
+	if (str % 2 == 0)
 	_putchar(str[i]);
 	i++;
 	}

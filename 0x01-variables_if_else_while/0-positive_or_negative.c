@@ -5,7 +5,6 @@
 /**
  * main - prints whether the number stored in the variable
  *        n is positive or negative
- * @n: is the integer
  *
  * Return: Always 0
  */
@@ -22,7 +21,6 @@ int main(void)
 	printf("%d is zero", n);
 	else
 	printf("%d is negative", n);
+	printf('\n');
 	return (0);
 }
-	
-	

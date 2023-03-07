@@ -1,14 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * add - adds two integers and returns the result.
- * @x: The first integer to be added.
- * @y: The second integer to be added.
- *
- * Return: The result of the addition
+ * add - adds two integers and returns the result
+ * @a: int to be added
+ * @b: int to be added
+ * Return: sum of a and b
  */
-int add(int x, int y)
+int add(int a, int b)
 {
+<<<<<<< HEAD
 	return (x + y);
+=======
+	int c;
+
+	c = a + b;
+
+	return (c);
+>>>>>>> 5d350ae8fb65ac8c27a73ac8422c7702bae48e66
 }

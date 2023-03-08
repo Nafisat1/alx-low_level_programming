@@ -5,7 +5,7 @@
  * @n: the number
  *
  * Return: Always 0
- * 	   -1 if n is less than 0
+ *        -1 if n is less than 0
  */
 int factorial(int n)
 {

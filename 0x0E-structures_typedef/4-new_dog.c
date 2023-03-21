@@ -38,7 +38,7 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * new_dog - Creates a new dog.
+ * new_dog - creates a new dog.
  * @name: name of the dog.
  * @age: age of the dog.
  * @owner: owner of the dog.
@@ -47,33 +47,33 @@ char *_strcpy(char *dest, char *src)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *doggo;
+	dog_t *bingo;
 
 	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
 
-	doggo = malloc(sizeof(dog_t));
-	if (doggo == NULL)
+	bingo = malloc(sizeof(dog_t));
+	if (bingo == NULL)
 		return (NULL);
 
-	doggo->name = malloc(sizeof(char) * (_strlen(name) + 1));
-	if (doggo->name == NULL)
+	bingo->name = malloc(sizeof(char) * (_strlen(name) + 1));
+	if (bingo->name == NULL)
 	{
-		free(doggo);
+		free(bingo);
 		return (NULL);
 	}
 
-	doggo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
-	if (doggo->owner == NULL)
+	bingo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
+	if (bingo->owner == NULL)
 	{
-		free(doggo->name);
-		free(doggo);
+		free(bingo->name);
+		free(bingo);
 		return (NULL);
 	}
 
-	doggo->name = _strcpy(doggo->name, name);
-	doggo->age = age;
-	doggo->owner = _strcpy(doggo->owner, owner);
+	bingo->name = _strcpy(bingo->name, name);
+	bingo->age = age;
+	bingo->owner = _strcpy(bingo->owner, owner);
 
-	return (doggo);
+	return (bingo);
 }

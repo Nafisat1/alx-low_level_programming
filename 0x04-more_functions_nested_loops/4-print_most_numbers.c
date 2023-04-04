@@ -3,7 +3,6 @@
 /**
  * print_most_numbers - prints the numbers, from 0 to 9,
  * followed by a new line.
- * @c: is an integer
  *
  * Return: Always 0
  */
@@ -15,7 +14,7 @@ void print_most_numbers(void)
 	{
 	if (c != '2' && c != '4')
 	{
-	_putchar(c);
+		_putchar(c);
 	}
 	c++;
 	}

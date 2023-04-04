@@ -8,15 +8,12 @@
  */
 int main(void)
 {
-	int n1 = 1;
-	int n2 = 2;
-	int n3;
-	int count;
+	unsigned long int n1 = 1, n2 = 2, n3, count;
 
 	for (count = 0; count <= 50; count++)
 	{
 		n3 = n1 + n2;
-		printf("%d", n3);
+		printf("%ld", n3);
 		if (count != 49)
 		{
 			printf(", ");

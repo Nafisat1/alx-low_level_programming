@@ -18,9 +18,9 @@ int main(void)
 	}
 	int sum;
 	
-	for (sum = 0; sum[i]; sum++)
+	for (sum = 0; sum[i]; sum[i]++)
 	{
-		printf("%d\n", sum);
+		printf("%d\n", sum[i]);
 	}
 	return (0);
 }

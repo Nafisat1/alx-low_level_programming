@@ -16,11 +16,5 @@ int main(void)
 		printf("%d", i);
 	i++;
 	}
-	int sum;
-	
-	for (sum = 0; sum[i]; sum[i]++)
-	{
-		printf("%d\n", sum[i]);
-	}
 	return (0);
 }

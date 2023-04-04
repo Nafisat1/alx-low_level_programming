@@ -10,11 +10,12 @@ int main(void)
 {
 	int i;
 
-	while(i < 10)
+	while (i < 10)
 	{
 	if (i % 3 == 0 && i % 5 == 0)
 		printf("%d", i);
 	i++;
 	}
+	int sum;
 	return (0);
 }

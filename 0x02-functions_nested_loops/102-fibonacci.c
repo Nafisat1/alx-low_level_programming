@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	unsigned long int n1 = 1, n2 = 2, n3, count;
+	unsigned long int n1 = 0, n2 = 1, n3, count;
 
 	for (count = 0; count <= 50; count++)
 	{

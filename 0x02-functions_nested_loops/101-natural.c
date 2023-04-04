@@ -12,7 +12,7 @@ int main(void)
 
 	while(i < 10)
 	{
-	if (i % 3 == 0 & i % 5 == 0)
+	if (i % 3 == 0 && i % 5 == 0)
 		printf("%d", i);
 	i++;
 	}
